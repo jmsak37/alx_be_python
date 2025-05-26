@@ -1,10 +1,6 @@
 number1 = 10
 number2 = 5
 
-addition = number1 + number2
-subtraction = number1 - number2
-multiplication = number1 * number2
-
-print(f"Addition of {number1} and {number2} is {addition}")
-print(f"Subtraction of {number1} and {number2} is {subtraction}")
-print(f"Multiplication of {number1} and {number2} is {multiplication}")
+print("Addition of {} and {} is {}".format(number1, number2, number1 + number2))
+print("Subtraction of {} and {} is {}".format(number1, number2, number1 - number2))
+print("Multiplication of {} and {} is {}".format(number1, number2, number1 * number2))
